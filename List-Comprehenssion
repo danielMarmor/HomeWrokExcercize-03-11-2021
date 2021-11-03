@@ -1,0 +1,20 @@
+#1.
+fruits = ["apple", "banana", "cherry", "kiwi", "mango"]
+print([frt for frt in fruits if frt.find("a") != -1])
+
+
+#2.
+numbers = [1, 6, 9, 67, 5, 919, 71, 22, 33, 313]
+print([f'{x} is even' if x % 2 == 0 else f'{x} is odd' for x in numbers])
+
+
+#3.
+list1 = [1, 2]
+list2 = [4, 5]
+
+_tuples =[one_val for sub in [[(x, y) for y in list2] for x in list1] for one_val in sub]
+print(_tuples)
+
+
+
+
